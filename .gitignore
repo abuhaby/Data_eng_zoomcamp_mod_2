@@ -1,3 +1,24 @@
+# Docker data (The actual database files)
+kestra_data/
+kestra_postgres_data/
+ny_taxi_postgres_data/
+
+# Temporary storage for Kestra downloads
+tmp/
+*.csv
+*.gz
+
+# Terraform (From Module 1)
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.terraform.lock.hcl
+
+# Credentials & Sensitive info
+*.json
+.env
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
